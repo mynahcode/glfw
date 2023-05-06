@@ -53,6 +53,10 @@ src/glfw3.pc
 src/glfw3Config.cmake
 src/glfw3ConfigVersion.cmake
 
+# IsoEngine Binaries and Object Intermediates
+bin/
+obj/
+
 # Compiled binaries
 src/libglfw.so
 src/libglfw.so.3
