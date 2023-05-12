@@ -25,6 +25,7 @@ project "GLFW"
 	}
 	
 	filter "system:windows"
+		buildoptions {"-lgdi32"}
 		systemversion "latest"
 		staticruntime "On"
 
